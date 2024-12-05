@@ -60,7 +60,7 @@ document.addEventListener("DOMContentLoaded", function () {
     console.log('test');
     // Redirect to a new page after successful sign up (or later)
     localStorage.setItem('username', username); // Store the username in localStorage
-    window.location.href = '/MAIN/mainweb.html'; // Redirect to the desired page
+    window.location.href = '/MAIN/index.html'; // Redirect to the desired page
   });
 });
 
