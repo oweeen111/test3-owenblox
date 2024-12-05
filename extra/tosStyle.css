@@ -1,0 +1,23 @@
+.TOS {
+    background-color: rgb(37, 37, 37);
+}
+
+.title {
+    font-family: 'Fredoka One', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.tostext {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin-bottom: 10px;
+    flex-direction: column;
+    gap: 150px;
+    display: flex;
+    justify-content: center;
+    
+
+    
+}

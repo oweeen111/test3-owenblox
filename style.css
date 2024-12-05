@@ -1,0 +1,113 @@
+
+
+
+body {
+    background-color: rgb(37, 37, 37);
+  
+  }
+  
+  h1.TITLE {
+    font-family: 'Fredoka One', sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-bottom: 10px;
+    
+    
+  }
+
+h2.LoginTitle {
+  font-family: 'Fredoka One', sans-serif;
+  color: white;
+  text-align: center;
+  margin-bottom: 20%;
+  
+  
+  
+}
+
+.SOON {
+  text-align: center;
+  font-family: 'Fredoka One', sans-serif;
+  color: white;
+  margin-top: 100px;
+  
+  
+}
+
+.MainFrameWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  height: 50vh; 
+}
+
+div.MainFrame {
+  width: 300px; 
+  height: 400px; 
+  background-color: rgb(100, 100, 255);
+  border: 2px solid black;
+
+    width: 300px;
+    height: 400px;
+    background-color: rgb(31, 30, 30);
+    border: 2px solid rgb(10, 10, 10);
+    align-self: center;
+    border-radius: 15px;
+    
+    
+
+}
+.InputWrapper {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 50%;
+  flex-direction: column;
+  gap: 20px; 
+}
+
+.Username {
+  background-color: rgb(0, 0, 0);
+  width: 75%;
+  padding: 3%;
+  border-radius: 7px;
+  border: 1px solid rgb(255,255,255,255);
+  color: white;
+  
+}
+
+.InputWrapper .Username:hover, .InputWrapper .Password:hover{
+  border: 1px solid rgb(223, 219, 25)
+}
+
+.Password {
+  background-color: rgb(0, 0, 0);
+  width: 75%;
+  padding: 3%;
+
+  border-radius: 7px;
+  border: 1px solid rgb(255,255,255,255);
+  color: white;
+  
+  
+}
+
+.SignUp {
+  border-radius: 7px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+  width: 70%;
+  height: 100%;
+  border: 2px solid rgb(0, 0, 0);
+  cursor: pointer; /* Ensures the button is clickable */
+}
+.SignUp:disabled {
+  cursor: not-allowed;
+  background-color: gray;
+}
+
+.OBtext {
+  width: 50%;
+  height: 20%;
+  
+}

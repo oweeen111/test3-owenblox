@@ -1,0 +1,64 @@
+/* General body styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: rgb(37, 37, 37);
+}
+
+/* Main container that wraps everything */
+.mainBody {
+    display: flex;
+    justify-content: flex-start; /* Align items horizontally to the start (left) */
+    align-items: flex-start; /* Align items vertically to the top */
+    height: 100vh; /* Take full height of the viewport */
+    padding: 0;
+    margin: 0;
+}
+
+/* PlayersList container */
+.PlayersList {
+    display: flex;
+    flex-direction: row; /* Arrange child items (FRAME and PlayerName) in a row */
+    align-items: flex-start; /* Align the items to the top */
+}
+
+
+/* Player name styling */
+.PlayerName {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    display: flex;
+    align-items: flex-start; /* Align text to the top */
+    justify-content: center; /* Center the text horizontally */
+    margin-left: 10px; /* Space between frame and player name */
+    color: white;
+}
+
+/* The frame container */
+.FRAME{
+    width: 150px;
+    height: 912px;
+    background-color: rgb(29, 29, 29);
+    
+    align-self: flex-start; /* Align the frame at the top */
+   
+}
+
+.BUTTONS {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    height: 100px;
+    
+    
+    
+    
+
+}
+
+.BUTTONS .Games:hover {
+    background-color: grey;
+}
